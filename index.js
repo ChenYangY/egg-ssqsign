@@ -1,6 +1,6 @@
 
 const assert = require('assert')
-const SSQSign = require('ssq-sign')
+const {SSQSign} = require('ssq-sign')
 const _ = require('lodash')
 module.exports = app => {
   app.addSingleton('ssqSign', async function createSSQSign(config, app) {

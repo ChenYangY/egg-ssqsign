@@ -1,6 +1,6 @@
 {
   "name": "egg-ssqsign",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "egg framework plugin for shang shang qian",
   "main": "index.js",
   "repository": {
