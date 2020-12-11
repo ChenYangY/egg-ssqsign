@@ -2,7 +2,10 @@
   "name": "egg-ssqsign",
   "version": "1.0.1",
   "description": "egg framework plugin for shang shang qian",
-  "main": "index.js",
+  "files": [
+    "app.js",
+    "config"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChenYangY/egg-ssqsign.git"
