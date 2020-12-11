@@ -1,0 +1,32 @@
+{
+  "name": "egg-ssqsign",
+  "version": "1.0.0",
+  "description": "egg framework plugin for shang shang qian",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChenYangY/egg-ssqsign.git"
+  },
+  "eggPlugin": {
+    "name": "ssqSign"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "keywords": [
+    "egg",
+    "egg-plugin",
+    "eggPlugin",
+    "ssq-sign"
+  ],
+  "author": "chenyangyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChenYangY/egg-ssqsign/issues"
+  },
+  "homepage": "https://github.com/ChenYangY/egg-ssqsign#readme",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "ssq-sign": "0.0.1"
+  }
+}
