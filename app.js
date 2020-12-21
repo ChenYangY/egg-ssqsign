@@ -7,6 +7,6 @@ module.exports = app => {
     assert(config.url && config.developerId && config.privateKey && config.publicKey && config.account);
     app.coreLogger.info(`[egg-ssqsign]: ${config.url} ${config.developerId} ${config.account}`)
     return new SSQSign(config.url, config.developerId, config.privateKey, config.publicKey, 
-        _.pick(config, 'account', 'timeout', 'retry', 'notifyUrl', 'returnUrl'))
+        _.pick(config, 'account', 'timeout', 'retry', 'pushUrl', 'returnUrl', 'accessKey'))
   })
 }
