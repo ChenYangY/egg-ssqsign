@@ -30,6 +30,6 @@
   "homepage": "https://github.com/ChenYangY/egg-ssqsign#readme",
   "dependencies": {
     "lodash": "^4.17.20",
-    "ssq-sign": "0.0.3"
+    "ssq-sign": "0.0.4"
   }
 }
